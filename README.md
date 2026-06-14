@@ -9,6 +9,10 @@ range the head returns to a raster search sweep.
 **Author:** Ali Murtaza · **Type:** Digital Systems Design Lab project · **Period:** 2024
 **Platform:** Arduino Mega 2560 (C/C++, `Servo` library) · 3× HC-SR04 ultrasonic sensors (5 V, 2-400 cm), 2× hobby servos (pan 0-180°, tilt 0-90°), LED.
 
+![Assembled tracker](assets/hardware_tracker.jpg)
+
+*The assembled tracker: Arduino driving a dual-servo pan/tilt head with a three-sensor ultrasonic array on a custom mount.*
+
 ## How it works
 - **Sense:** the three HC-SR04 sensors give left/centre/right distances via trigger/echo timing.
 - **Decide:** the loop compares the three ranges to find the bearing of the closest object and whether it is within the tracking window.
