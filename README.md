@@ -20,7 +20,7 @@ range the head returns to a raster search sweep.
 - A demonstration video of the working hardware is available on request / in the project showcase.
 
 ## What this demonstrates
-Embedded real-time sensing, multi-sensor fusion for bearing estimation,
+Embedded real-time sensing, multi-sensor bearing estimation,
 closed-loop actuator control on a microcontroller, and a search/track state
 machine - all on constrained hardware.
 
